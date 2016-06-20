@@ -50,7 +50,7 @@
 % PDF-Links
 \usepackage[ngerman,pdfauthor={\docauthor},
 pdftitle={\doctitle},
-colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,
+colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,
 filecolor=black]{hyperref}
 
 % Titelseite
@@ -103,9 +103,6 @@ filecolor=black]{hyperref}
 % Floating
 \usepackage{float}
 
-% links
-\usepackage{hyperref}
-
 % Formatierung der Paragraphen
 \parindent 0pt
 \parskip 6pt
@@ -124,15 +121,35 @@ filecolor=black]{hyperref}
 
 \section{Abstract}
 \begin{abstract} 
-Dies ist ein CheatSheet for Mathematik für Informatiker im Sommersemester 2016 an der Universität des Saarlands. Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann klick hier \url{https://github.com/UdS-Skripte/MFI-II-CheatSheet} und eröffne eine neue \textbf{\href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new}{Issue}} oder füge dein Thema selber ein mit einem \textbf{\href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box}{Pull Request}}. 
+Dies ist ein CheatSheet for Mathematik für Informatiker im Sommersemester 2016 an der Universität des Saarlands. 
+
+Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann klick hier \url{https://github.com/UdS-Skripte/MFI-II-CheatSheet} und eröffne eine neue \href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new}{Issue} oder füge dein Thema selber ein mit einem \href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box}{Pull\ Request}.
+
+\textbf{Bitte hilf mit, dieses Dokument besser zu machen!}
+ 
 \end{abstract}
 
 \newpage
 
 \section{Vektoren}
 
-\subsection{Vektorformeln}
+Ein Vektor wird geschrieben: $a = (a_1, \cdots, a_n)^t \in \mathbb{R}^n$ oder
+$$a = \begin{pmatrix}a_{1}\\\vdots\\a_{n}\end{pmatrix} \in \mathbb{R}^n$$
 
+\subsection{Vektorformeln}
+$$ x+y := 
+\begin{pmatrix}
+x_1 + y_1\\
+\vdots\\
+x_n + y_n
+\end{pmatrix}$$
+$$\lambda \cdot y := 
+\begin{pmatrix}
+\lambda \cdot y_1\\
+\vdots\\
+\lambda \cdot y_n
+\end{pmatrix}
+$$
 
 
 \end{document}
