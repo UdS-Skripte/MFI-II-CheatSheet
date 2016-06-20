@@ -42,7 +42,7 @@
 \displaywidowpenalty = 10000
 
 % Variablen
-\newcommand{\doctitle}{Mathematik für Informatiker II}
+\newcommand{\doctitle}{MFI II}
 \newcommand{\docsubtitle}{CheatSheet}
 \newcommand{\docauthor}{Marvin Hofmann}
 \newcommand{\docdate}{\today}
@@ -68,7 +68,7 @@ filecolor=black]{hyperref}
 % Kopf- und Fußzeilen
 \usepackage[automark]{scrpage2}
 \ihead[]{\parbox[c][1.5cm][c]{0.5\textwidth}{{\large \textsf{\textbf{\doctitle}}} \\ \docsubtitle}}
-\ohead[]{\parbox[c][1.5cm][c]{0.5\textwidth}{\raggedleft \begin{tabular}{rr} \docauthor & 2553582\end{tabular}}}
+\ohead[]{\parbox[c][1.5cm][c]{0.5\textwidth}{\raggedleft \begin{tabular}{r} \docauthor\end{tabular}}}
 \ifoot[]{}
 \cfoot[]{\thepage}
 \ofoot[]{}
@@ -103,6 +103,9 @@ filecolor=black]{hyperref}
 % Floating
 \usepackage{float}
 
+% links
+\usepackage{hyperref}
+
 % Formatierung der Paragraphen
 \parindent 0pt
 \parskip 6pt
@@ -117,6 +120,19 @@ filecolor=black]{hyperref}
 
 \begin{document}
 
-init
+\tableofcontents 
+
+\section{Abstract}
+\begin{abstract} 
+Dies ist ein CheatSheet for Mathematik für Informatiker im Sommersemester 2016 an der Universität des Saarlands. Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann klick hier \url{https://github.com/UdS-Skripte/MFI-II-CheatSheet} und eröffne eine neue \textbf{\href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new}{Issue}} oder füge dein Thema selber ein mit einem \textbf{\href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box}{Pull Request}}. 
+\end{abstract}
+
+\newpage
+
+\section{Vektoren}
+
+\subsection{Vektorformeln}
+
+
 
 \end{document}
