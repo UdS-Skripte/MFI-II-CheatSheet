@@ -2,7 +2,7 @@
 Ein CheatSheet for Mathematik für Informatiker im Sommersemester 2016 an der Universität des Saarlands. 
 
 ## Mitmachen
-Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann eröffne eine neue [https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new](Issue) oder füge dein Thema selber ein mit einem [https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box](Pull\ Request).
+Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann eröffne eine neue [Issue](https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new) oder füge dein Thema selber ein mit einem [Pull Request](https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box).
 
 **Bitte hilf mit, dieses Dokument besser zu machen!**
 
