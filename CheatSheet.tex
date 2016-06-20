@@ -1,0 +1,122 @@
+% Dokumententyp (Schriftgröße, Papiergröße, Formelausrichtung)
+\documentclass[pdftex,12pt,a4paper,fleqn]{scrartcl}
+ 
+% Ein- und Ausgabekodierung
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Sprache
+\usepackage[ngerman]{babel}
+\usepackage[babel,german=quotes]{csquotes}
+
+% Schriftart
+\usepackage{lmodern}
+
+% Euro-Symbol
+\usepackage{eurosym}
+
+% Tabellen
+\usepackage{longtable}
+\usepackage{array}
+
+% PDF-Seiten Landscape
+\usepackage{pdflscape}
+
+% Schlussregeln
+\usepackage{proof}
+
+% Listen
+\usepackage{enumitem}
+
+% Formelsatz
+\usepackage[fleqn]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Zitate
+\usepackage[backend=biber,style=alphabetic]{biblatex}
+
+% Hurenkinder- und Schusterjungenregelung
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+% Variablen
+\newcommand{\doctitle}{Mathematik für Informatiker II}
+\newcommand{\docsubtitle}{CheatSheet}
+\newcommand{\docauthor}{Marvin Hofmann}
+\newcommand{\docdate}{\today}
+
+% PDF-Links
+\usepackage[ngerman,pdfauthor={\docauthor},
+pdftitle={\doctitle},
+colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,
+filecolor=black]{hyperref}
+
+% Titelseite
+\title{\doctitle}
+\subtitle{\docsubtitle}
+\author{\docauthor}
+\date{\docdate}
+
+% Zeilenabstand
+\usepackage{setspace}
+
+% Seiten-Geometrie
+\usepackage[paper=a4paper,left=2.5cm,right=2.5cm,bottom=4.5cm,top=3.5cm]{geometry}
+
+% Kopf- und Fußzeilen
+\usepackage[automark]{scrpage2}
+\ihead[]{\parbox[c][1.5cm][c]{0.5\textwidth}{{\large \textsf{\textbf{\doctitle}}} \\ \docsubtitle}}
+\ohead[]{\parbox[c][1.5cm][c]{0.5\textwidth}{\raggedleft \begin{tabular}{rr} \docauthor & 2553582\end{tabular}}}
+\ifoot[]{}
+\cfoot[]{\thepage}
+\ofoot[]{}
+\pagestyle{scrheadings}
+\setheadtopline{.5pt}
+\setheadsepline{.5pt}
+\setlength{\headheight}{1.5cm}
+
+% Fußnoten
+\usepackage[hang]{footmisc}
+\setlength{\footnotemargin}{3mm}
+
+% Todonotes
+\usepackage{todonotes}
+
+% Boxen
+\usepackage[framemethod=tikz]{mdframed}
+
+% Grafiken und Fotos
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{circuitikz}
+\usetikzlibrary{decorations,calc,trees,positioning,arrows,fit,shapes,calc}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Farben
+\usepackage{color}
+
+% Floating
+\usepackage{float}
+
+% Formatierung der Paragraphen
+\parindent 0pt
+\parskip 6pt
+
+% Euro- und Gradzeichen (Unicode)
+\DeclareUnicodeCharacter{B0}{$^{\circ}$}
+\DeclareUnicodeCharacter{20AC}{\euro}
+
+% Aufgabe
+\newcommand{\task}[1]{\section*{Aufgabe #1}}
+\newcommand{\subtask}[1]{\subsection*{#1}}
+
+\begin{document}
+
+init
+
+\end{document}
