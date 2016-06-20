@@ -119,45 +119,54 @@ filecolor=black]{hyperref}
 
 \tableofcontents 
 
-\section{Abstract}
+\section{Abstract} % (fold)
+\label{sec:abstract}
+
 \begin{abstract} 
 Dies ist ein CheatSheet for Mathematik für Informatiker im Sommersemester 2016 an der Universität des Saarlands. 
 
 Mitarbeit jeglicher Art ist gerne gesehen. Du hast einen Fehler entdeckt oder ein Thema fehlt? Dann klick hier \url{https://github.com/UdS-Skripte/MFI-II-CheatSheet} und eröffne eine neue \href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/issues/new}{Issue} oder füge dein Thema selber ein mit einem \href{https://github.com/UdS-Skripte/MFI-II-CheatSheet/compare#fork-destination-box}{Pull\ Request}.
 
 \textbf{Bitte hilf mit, dieses Dokument besser zu machen!}
+\end{abstract}
 
-\subsection{Contributors}
+% section abstract (end)
+
+\section{Contributors} % (fold)
+\label{sec:contributors}
 
 \begin{itemize}
-	\item Marvin Hofmann
+	\item Marvin Hofmann (Author)
 \end{itemize}
- 
-\end{abstract}
+
+% section contributors (end)
 
 \newpage
 
-\section{Vektoren}
+\section{Vektoren} % (fold)
+\label{sec:vektoren}
 
 Ein Vektor wird geschrieben: $a = (a_1, \cdots, a_n)^t \in \mathbb{R}^n$ oder
 $$a = \begin{pmatrix}a_{1}\\\vdots\\a_{n}\end{pmatrix} \in \mathbb{R}^n$$
 
-\subsection{Vektorformeln}
+\subsection{Vektorformeln} % (fold)
+\label{sub:vektorformeln}
+
+
 Mit $x,y \in \mathbb{R}^n$ und $\lambda \in \mathbb{R}$
 
-
-\begin{tabular}{|l|l|l|}
+\begin{tabular}{|l|p{2.5cm}|p{5cm}|l|}
 	\hline
-	Operation & Definition & Ergebnisbereich\\
+	Bezeichnung & Operator & Definition & Ergebnisbereich\\
 	\hline
-	Vektoraddition & $x+y := 
+	Vektoraddition & $x+y $&$
 	\begin{pmatrix}
 		x_1 + y_1\\
 		\vdots\\
 		x_n + y_n
 	\end{pmatrix}$ & $\in \mathbb{R}^n$\\
 	\hline
-	Vektormultiplikation &  $ \lambda \cdot y := 
+	Vektormultiplikation &  $ \lambda \cdot y $&$ 
 	\begin{pmatrix}
 		\lambda \cdot y_1\\
 		\vdots\\
@@ -165,11 +174,30 @@ Mit $x,y \in \mathbb{R}^n$ und $\lambda \in \mathbb{R}$
 	\end{pmatrix}$ & $\in \mathbb{R}^n$\\
 	\hline
 	Skalarprodukt & 
-	$\langle x,y \rangle := x_1 \cdot y_1 + \cdots + x_n \cdot y_n$
-	 & $\in \mathbb{R}$\\
+	$\langle x,y \rangle $ \newline
+	$x \cdot y$
+	&$ x_1 \cdot y_1 + \cdots + x_n \cdot y_n$
+	& $\in \mathbb{R}$\\
+	\hline
+	Betrag &
+	$ ||x|| $ \newline
+	$ ||x||_2 $& 
+	$ \sqrt{\sum_{i=1}^n x_i^n} $ \newline
+	$ \sqrt{ x_1^2 + \cdots + x_n^2 } $ \newline
+	$ \langle x,x \rangle^{ \frac{1}{2} }$
+	& $\in \mathbb{R}$\\
+	\hline
+	Abstand & $d(x,y)$ & $||x-y||$ & $\in \mathbb{R}$\\
 	\hline
 \end{tabular}
 
+% subsection vektorformeln (end)
 
+\subsection{Eigenschaften des Skalarprodukts} % (fold)
+\label{sub:eigenschaften_des_skalarprodukts}
+
+% subsection eigenschaften_des_skalarprodukts (end)
+
+% section vektoren (end)
 
 \end{document}
